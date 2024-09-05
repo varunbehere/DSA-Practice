@@ -12,9 +12,9 @@ function fibonacci (uptoN){
     let temp = 0;
 
     for (let i = 1; i < uptoN; i++){
-    temp = next
+        temp = next
         next = start + next
-    start = temp
+        start = temp
     }
     return next
 }
