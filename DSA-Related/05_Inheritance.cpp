@@ -8,7 +8,7 @@ class Person {
         string Job; 
 
         // Constructor for the Person class
-        // Takes three arguments: name (string), age (int), and job (string)
+        // Takes three arguments: name (string), age (int), and job (string) 
         Person (string name, int age, string job) {
             this->Name = name; 
             this->Age = age;   
