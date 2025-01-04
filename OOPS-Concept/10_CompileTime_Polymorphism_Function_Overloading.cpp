@@ -1,4 +1,4 @@
-/*
+  /*
     Program: Calculator with Function Overloading for Integer and Float Addition
 
     Concept: Function Overloading in C++
@@ -33,11 +33,11 @@ class Calculator {
     int iResult;
     float fResult;
 
-public:
-    Calculator() {
-        iResult = 0;
-        fResult = 0.0f;
-    }
+    public:
+        Calculator() {
+            iResult = 0;
+            fResult = 0.0f;
+        }
 
     // Overloaded functions for integer addition
     int Add(int iValue1, int iValue2) {
